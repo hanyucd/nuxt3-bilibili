@@ -15,11 +15,11 @@ defineProps<{
       <div class="count">
         <span>
           <i class="iconfont icon_shipin_bofangshu"></i>
-          <!-- {{ parseView(item.stat.view) }} -->
+          {{ parseView(item.stat.view) }}
         </span>
         <span>
           <i class="iconfont icon_shipin_danmushu"></i>
-          <!-- {{ parseView(item.stat.danmaku) }} -->
+          {{ parseView(item.stat.danmaku) }}
         </span>
       </div>
     </div>

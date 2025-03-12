@@ -1,6 +1,9 @@
 <template>
-  <!-- 页面路由 -->
-  <NuxtPage />
+  <!-- Nuxt 页面容器，相当于 Vue 的 router-view -->
+  <NuxtPage :keepalive="{ max: 10 }" />
+
+  <!-- 返回顶部 -->
+  <van-back-top :right="10" />
 </template>
 
 <script setup lang="ts">
