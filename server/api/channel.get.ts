@@ -1,7 +1,7 @@
 import chnnel from '@/database/chnnel'
 
 export default defineEventHandler((event) => {
-  console.log(event)
+  // console.log(event)
   
-  return chnnel
+  return chnnel;
 })
