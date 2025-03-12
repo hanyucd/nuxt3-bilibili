@@ -18,6 +18,6 @@
   },
   "devDependencies": {
     "postcss-px-to-viewport": "^1.1.1",
-    "sass-embedded": "^1.85.1"
+    "sass": "^1.85.1"
   }
 }
